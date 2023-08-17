@@ -5,20 +5,41 @@
 		<title>My first three.js app</title>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins&display=swap" rel="stylesheet">
 		<style>
-			body { margin: 0; }
+			* {
+				margin:  0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			
+			body, html {
+				overflow-x: hidden;
+				font-family: "Poppins", sans-serif;
+			}
+
+			nav {
+				color: black;
+				z-index: 2;
+				position: relative;
+				padding: 4rem 8rem;
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			nav a {
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+			}
+			
 		</style>
 	</head>
 	<body>
-		<canvas class="webgl"></canvas>
 		<nav>
-			<a href="/">Sphere</a>
-			<ul>
-				<li>Explore</li>
-				<li>Create</li>
-			</ul>
+			<a href="/public/component/create-ascene/create-ascene.html">CreateAScene</a>
+			<a href="/public/component/drawing-line/drawing-line.html">DrawingLines</a>
+			<a href="/public/component/check-webgl/check-webgl.html">Check WebGL</a>
+			<a href="/public/component/sphere-geometrys/sphere-geometrys.html">Sphere</a>
 		</nav>
-		<h1 class="title">Give it a spin</h1>
-		<div id="container"></div>
 		<script type="module" src="/main.js"></script>
 	</body>
 </html>

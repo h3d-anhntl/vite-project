@@ -1,11 +1,10 @@
 import * as THREE from 'three'
 
-import "./../style.css"
+import "./sphere-geometrys-style.css"
 import { gsap } from 'gsap'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 
-function SphereGeometrys() {
     //Scene
     const scene = new THREE.Scene()
 
@@ -102,6 +101,4 @@ function SphereGeometrys() {
             )
         }
     })
-}
 
-export default SphereGeometrys

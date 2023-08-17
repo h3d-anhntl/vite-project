@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-function CreateAScene () {
+
 	//Scence
 	const scene = new THREE.Scene();
 
@@ -29,6 +29,6 @@ function CreateAScene () {
 
 
 	renderer.render(scene, camera)
-}
+
 export default CreateAScene
 

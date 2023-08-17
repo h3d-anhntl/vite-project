@@ -1,11 +1,3 @@
-import CheckWebGL from './public/CheckWebGL';
-import CreateAScene from './public/CreateAScene';
-import DrawingLines from './public/DrawingLines';
-import SphereGeometrys from './public/SphereGeometrys';
-import "./style.css"
+import MeshStandardMaterialExample from "./public/example/MeshStandardMaterialExample"
 
-// CheckWebGL();
-// CreateAScene();
-// DrawingLines();
-
-SphereGeometrys();
+MeshStandardMaterialExample()
