@@ -30,5 +30,4 @@ import * as THREE from 'three';
 
 	renderer.render(scene, camera)
 
-export default CreateAScene
 
